@@ -8,4 +8,4 @@ SELECT
 FROM
     departments;    
     
-select * from employees where first_name="Elvis";
+select * from employees where first_name= "Elvis";
