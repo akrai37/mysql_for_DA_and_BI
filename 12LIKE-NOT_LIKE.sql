@@ -6,4 +6,4 @@ select * from employees where emp_no like ('1000_');
 
 select * from employees where first_name like ('%jack%');
 
-select * from employees where first_name not like ('%jack%');
+select * from employees where first_name not like  ('%jack%');
