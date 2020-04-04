@@ -11,5 +11,5 @@ CREATE TABLE departments_dup ( # creating a new table (which is supposed to be t
     dept_name VARCHAR(50)
 );
 
-insert into departments_dup(dept_no, dept_name) # inserting all the values of departments table into its duplicate table
+insert into departments_dup(dept_no, dept_name) # inserting all the values of departments table into its duplicate table. table names can be different.
 select * from departments;                         
