@@ -82,7 +82,6 @@ FROM
         e.emp_no=110022
     GROUP BY e.emp_no
     ORDER BY e.emp_no) AS D;
-#note:- Without 'GROUP BY' it is returning only 1 row. Why? Well, the reason we obtain such result is because we are using an aggregate function here - MIN(), which requires grouping.   
 
 												   
 
