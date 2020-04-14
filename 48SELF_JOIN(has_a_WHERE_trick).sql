@@ -33,7 +33,7 @@ WHERE
 #We have used a trick to return only the 2 rows required. 
 #In the WHERE query ,we are returning the 'emp_no' of table_2 that are IN the 'manager_no' and there are only 2 such emp_no matching and thus, it will return only 2 rows.
 
-#another option could be using GROUP_BY
+#another option could be using GROUP_BY . It also has flaws since other column values cannot be defined distinctively. It will return the first value encountered and not the required one for those columns.
 SELECT 
     e1.*
 FROM
