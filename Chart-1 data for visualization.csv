@@ -39,7 +39,7 @@ emp_no,salary,gender,dept_name,calendar_year
 10012,47629.32,M,Development,1992
 10032,47214.69,F,Production,1992
 10036,43316.85,M,"Human Resources",1992
-10046,47339.88,M,Research,1992
+10046,47339.88,M,Research, 1992
 10050,58294.62,M,Finance,1992
 10050,69628.75,M,Sales,1992
 10051,47582.76,M,Production,1992
