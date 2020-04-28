@@ -1,4 +1,4 @@
-dept_no,dept_name,gender,avg_salary
+dept_no,dept_name,gender, avg_salary
 d001,Marketing,M,68693.7540
 d001,Marketing,F,67554.2469
 d002,Finance,M,67982.0745
